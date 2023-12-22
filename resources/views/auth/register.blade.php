@@ -39,10 +39,10 @@
                         <button class="btn btn-primary btn-user btn-block" type="submit">
                             Register Account
                         </button>
-                        <hr>
+                        {{-- <hr>
                         <a href="{{ route('auth.google')}}" class="btn btn-google btn-user btn-block">
                         <i class="fab fa-google fa-fw"></i> Register Dengan Google
-                        </a>
+                        </a> --}}
                     </form>
                     <div class="text-center">
                         <a class="small" href="{{ route('password.request') }}">

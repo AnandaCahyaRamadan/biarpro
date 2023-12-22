@@ -44,10 +44,10 @@
                                         <button type="submit" class="btn btn-primary btn-user btn-block">
                                             Login
                                         </button>
-                                        <hr>
+                                        {{-- <hr>
                                         <a href="{{ route('auth.google')}}" class="btn btn-google btn-user btn-block">
                                             <i class="fab fa-google fa-fw"></i> Login Dengan Google
-                                        </a>
+                                        </a> --}}
                                     </form>
                                     <div class="text-center mt-3">
                                         <a class="small" href="{{ route('password.request') }}">
